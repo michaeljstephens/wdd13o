@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=RocknRoll+One&family=Trade+Winds&display=swap');
 
 body {
     background-color: #F0F6D2;
-    font-family: Arial, sans-serif;
+    font-family: Trade Winds, RocknRoll One, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -12,6 +15,7 @@ header {
 nav a {
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -30,10 +34,15 @@ nav a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #background {
@@ -44,6 +53,8 @@ nav a:hover {
 .msg {
     background-color: #102F66;
     color: #fcfbfb;
+    padding: 35px;
+    line-height: 1.5em;
 }
 
 .msg h2,
@@ -51,10 +62,19 @@ nav a:hover {
     color: #fcfbfb;
 }
 
+.msg p {
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
 .book, .join {
     background-color: #301934;
     color: #fcfbfb;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -64,6 +84,8 @@ nav a:hover {
 footer {
     background-color: #301934;
     color: #fcfbfb;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -75,7 +97,42 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
 footer p {
     font-size: 1.2em;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.home-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
